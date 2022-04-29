@@ -8,10 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class pVelocity extends Fragment {
+public class gCone extends Fragment {
 
-
-    public pVelocity() {
+    public gCone() {
         // Required empty public constructor
     }
 
@@ -19,6 +18,6 @@ public class pVelocity extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_p_velocity, container, false);
+        return inflater.inflate(R.layout.fragment_g_cone, container, false);
     }
 }
