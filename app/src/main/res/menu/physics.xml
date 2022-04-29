@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/speed"
+        android:title="Speed"
+        />
+
+    <item
+        android:id="@+id/velocity"
+        android:title="Velocity"
+        />
+
+    <item
+        android:id="@+id/acceleration"
+        android:title="Accerelation"
+        />
+
+    <item
+        android:id="@+id/weight"
+        android:title="Weight"
+        />
+
+</menu>
