@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/drawable/selector.xml" value="0.1665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/fragment_g_pyramid.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/fragment_p_speed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/fragment_p_velocity.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/fragment_p_weight.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/main_geometry.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/main_physics.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Cruz_MultiCalc/app/src/main/res/layout/nav_geometry.xml" value="0.20416666666666666" />
