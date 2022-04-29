@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
-        android:text="Mass:"
+        android:text="Mass: (kilograms)"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -67,18 +67,6 @@
         tools:layout_editor_absoluteY="585dp" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="kilograms"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtMass"
-        app:layout_constraintStart_toEndOf="@+id/txtMass"
-        app:layout_constraintTop_toTopOf="@+id/txtMass"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="252dp" />
-
-    <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -95,8 +83,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="60dp"
-        android:paddingBottom="45dp"
+        android:padding="20dp"
         android:text="Weight"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"

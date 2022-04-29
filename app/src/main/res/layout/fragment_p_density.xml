@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
-        android:text="Mass:"
+        android:text="Mass: (grams)"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="30dp"
-        android:text="Volume:"
+        android:text="Volume: (milliliters)"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/txtMass"
         app:layout_constraintStart_toStartOf="@+id/txtMass"
@@ -86,28 +86,17 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="grams"
+        android:text=""
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/txtMass"
         app:layout_constraintStart_toEndOf="@+id/txtMass"
         app:layout_constraintTop_toTopOf="@+id/txtMass" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="milliliters"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtVolume"
-        app:layout_constraintStart_toEndOf="@+id/txtVolume"
-        app:layout_constraintTop_toTopOf="@+id/txtVolume" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="60dp"
-        android:paddingBottom="45dp"
+        android:padding="20dp"
         android:text="Density"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
