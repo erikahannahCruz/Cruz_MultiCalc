@@ -14,8 +14,8 @@
         android:title="Cylinder"
         />
     <item
-        android:id="@+id/pyramid"
-        android:title="Pyramid"
+        android:id="@+id/cone"
+        android:title="Cone"
         />
 
 </menu>
