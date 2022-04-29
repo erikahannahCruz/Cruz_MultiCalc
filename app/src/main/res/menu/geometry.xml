@@ -4,18 +4,26 @@
     <item
         android:id="@+id/cube"
         android:title="Cube"
+        android:icon="@drawable/ic_sphere"
+
         />
     <item
         android:id="@+id/sphere"
         android:title="Sphere"
+        android:icon="@drawable/ic_sphere"
+
         />
     <item
         android:id="@+id/cylinder"
         android:title="Cylinder"
+        android:icon="@drawable/ic_sphere"
+
         />
     <item
         android:id="@+id/cone"
         android:title="Cone"
+        android:icon="@drawable/ic_sphere"
+
         />
 
 </menu>

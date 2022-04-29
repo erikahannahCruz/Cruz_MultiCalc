@@ -4,21 +4,25 @@
     <item
         android:id="@+id/speed"
         android:title="Speed"
+        android:icon="@drawable/ic_sphere"
         />
 
     <item
         android:id="@+id/density"
         android:title="Density"
+        android:icon="@drawable/ic_sphere"
         />
 
     <item
         android:id="@+id/acceleration"
         android:title="Acceleration"
+        android:icon="@drawable/ic_sphere"
         />
 
     <item
         android:id="@+id/weight"
         android:title="Weight"
+        android:icon="@drawable/ic_sphere"
         />
 
 </menu>
