@@ -44,4 +44,22 @@ public class Formulas {
 
     }
 
+    /*PHYSICS FORMULAS*/
+
+    public static double density (double denMass , double denVolume) {
+        return  (denMass / denVolume);
+    }
+
+    public static double acceleration (double accVel1 , double accVel2 , double accTime) {
+        return ((accVel2 - accVel1) / accTime );
+    }
+
+    public static double speed (double spdDistance , double spdTime) {
+        return (spdDistance / spdTime);
+    }
+
+    public static double weight (double wetMass) {
+        return (wetMass * 9.8);
+    }
+
 }

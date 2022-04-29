@@ -7,7 +7,7 @@
     tools:context=".Physics.Weight">
 
     <EditText
-        android:id="@+id/txtMass"
+        android:id="@+id/txtMassWet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -31,7 +31,7 @@
         tools:layout_editor_absoluteY="632dp" />
 
     <Button
-        android:id="@+id/btnCalculate"
+        android:id="@+id/btnCalculateWet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
@@ -60,9 +60,9 @@
         android:paddingTop="20dp"
         android:text="The Answer is:"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/btnCalculate"
-        app:layout_constraintStart_toStartOf="@+id/btnCalculate"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalculate"
+        app:layout_constraintEnd_toEndOf="@+id/btnCalculateWet"
+        app:layout_constraintStart_toStartOf="@+id/btnCalculateWet"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculateWet"
         tools:layout_editor_absoluteX="114dp"
         tools:layout_editor_absoluteY="585dp" />
 
@@ -72,12 +72,12 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="25dp"
-        android:text="Gravity is a constant\nof 1.625 m/s^2"
+        android:text="Gravity is a constant\nof 9.8 m/s^2"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/txtMass" />
+        app:layout_constraintTop_toBottomOf="@+id/txtMassWet" />
 
     <TextView
         android:id="@+id/textView"

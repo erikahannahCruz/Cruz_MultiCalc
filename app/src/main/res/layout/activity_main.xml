@@ -10,7 +10,7 @@
         android:id="@+id/btnPhysics"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Physics"
+        android:text="Phy-\nsics"
         android:textSize="35sp"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -39,7 +39,7 @@
 
 
     <Button
-        android:id="@+id/btnCalculate"
+        android:id="@+id/btnCalculateDen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
@@ -78,9 +78,9 @@
         android:paddingTop="20dp"
         android:text="The Answer is:"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/btnCalculate"
-        app:layout_constraintStart_toStartOf="@+id/btnCalculate"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />
+        app:layout_constraintEnd_toEndOf="@+id/btnCalculateDen"
+        app:layout_constraintStart_toStartOf="@+id/btnCalculateDen"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculateDen" />
 
     <TextView
         android:id="@+id/textView6"

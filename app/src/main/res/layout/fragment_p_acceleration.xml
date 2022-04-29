@@ -28,7 +28,7 @@
 
 
     <EditText
-        android:id="@+id/txtTime"
+        android:id="@+id/txtTimeAcc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -48,14 +48,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/btnCalculate"
+        android:id="@+id/btnCalculateAcc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
         android:layout_margin="45dp"
-        app:layout_constraintEnd_toEndOf="@+id/txtTime"
-        app:layout_constraintStart_toStartOf="@+id/txtTime"
-        app:layout_constraintTop_toBottomOf="@+id/txtTime" />
+        app:layout_constraintEnd_toEndOf="@+id/txtTimeAcc"
+        app:layout_constraintStart_toStartOf="@+id/txtTimeAcc"
+        app:layout_constraintTop_toBottomOf="@+id/txtTimeAcc" />
 
     <TextView
         android:id="@+id/textView2"
@@ -97,9 +97,9 @@
         android:paddingTop="20dp"
         android:text="The Answer is:"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/btnCalculate"
-        app:layout_constraintStart_toStartOf="@+id/btnCalculate"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />
+        app:layout_constraintEnd_toEndOf="@+id/btnCalculateAcc"
+        app:layout_constraintStart_toStartOf="@+id/btnCalculateAcc"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculateAcc" />
 
     <TextView
         android:id="@+id/textView"
