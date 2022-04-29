@@ -5,16 +5,21 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
+
+import com.example.cruz_multicalc.Physics.Acceleration;
+import com.example.cruz_multicalc.Physics.Density;
+import com.example.cruz_multicalc.Physics.Speed;
+import com.example.cruz_multicalc.Physics.Weight;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class PhysicsMenu extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     BottomNavigationView bottomNavPhysics;
 
-    pDensity density = new pDensity();
-    pAcceleration acceleration = new pAcceleration();
-    pSpeed speed = new pSpeed();
-    pWeight weight = new pWeight();
+    Density density = new Density();
+    Acceleration acceleration = new Acceleration();
+    Speed speed = new Speed();
+    Weight weight = new Weight();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

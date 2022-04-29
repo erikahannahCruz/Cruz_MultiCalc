@@ -5,16 +5,21 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
+
+import com.example.cruz_multicalc.Geometry.Cone;
+import com.example.cruz_multicalc.Geometry.Cube;
+import com.example.cruz_multicalc.Geometry.Cylinder;
+import com.example.cruz_multicalc.Geometry.Sphere;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class GeometryMenu extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     BottomNavigationView bottomNavGeometry;
 
-    gCube cube = new gCube();
-    gCylinder cylinder = new gCylinder();
-    gSphere sphere = new gSphere();
-    gCone cone = new gCone();
+    Cube cube = new Cube();
+    Cylinder cylinder = new Cylinder();
+    Sphere sphere = new Sphere();
+    Cone cone = new Cone();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

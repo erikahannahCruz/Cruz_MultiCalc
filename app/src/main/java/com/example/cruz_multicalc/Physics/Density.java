@@ -1,4 +1,4 @@
-package com.example.cruz_multicalc;
+package com.example.cruz_multicalc.Physics;
 
 import android.os.Bundle;
 
@@ -7,10 +7,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
-public class gCube extends Fragment {
+import com.example.cruz_multicalc.R;
 
-    public gCube() {
+public class Density extends Fragment {
+
+    public Density() {
         // Required empty public constructor
     }
 
@@ -18,6 +21,6 @@ public class gCube extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_g_cube, container, false);
+        return inflater.inflate(R.layout.fragment_p_density, container, false);
     }
 }

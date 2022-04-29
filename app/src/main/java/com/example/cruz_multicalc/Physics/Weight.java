@@ -1,4 +1,4 @@
-package com.example.cruz_multicalc;
+package com.example.cruz_multicalc.Physics;
 
 import android.os.Bundle;
 
@@ -8,10 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class pWeight extends Fragment {
+import com.example.cruz_multicalc.R;
+
+public class Weight extends Fragment {
 
 
-    public pWeight() {
+    public Weight() {
         // Required empty public constructor
     }
 

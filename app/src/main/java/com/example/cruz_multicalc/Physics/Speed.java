@@ -1,4 +1,4 @@
-package com.example.cruz_multicalc;
+package com.example.cruz_multicalc.Physics;
 
 import android.os.Bundle;
 
@@ -8,11 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class pAcceleration extends Fragment {
+import com.example.cruz_multicalc.R;
+
+public class Speed extends Fragment {
 
 
-
-    public pAcceleration() {
+    public Speed() {
         // Required empty public constructor
     }
 
@@ -20,6 +21,6 @@ public class pAcceleration extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_p_acceleration, container, false);
+        return inflater.inflate(R.layout.fragment_p_speed, container, false);
     }
 }
